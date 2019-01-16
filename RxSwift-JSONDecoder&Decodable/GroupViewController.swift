@@ -70,7 +70,7 @@ class GroupViewController: UIViewController {
         self.collectionView.rx.modelSelected(GroupViewModel.self)
             .subscribe(onNext: { [weak self] (groupViewModel) in
                 self?.groupViewModel.currentTeams.accept(groupViewModel.teams)
-            }).disposed(by: self.disposeBag)
+            }).disposed(by: self.disposeBag) 
     }
 
     private func loadGroupsJson<T: Decodable>(fileName: String, type: T.Type) -> T? {
