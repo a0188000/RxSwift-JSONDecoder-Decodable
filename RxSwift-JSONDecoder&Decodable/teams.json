@@ -1,0 +1,159 @@
+{
+  "groups": [
+    {
+      "group": {
+        "name": "Group A",
+        "trams": [
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "group": {
+        "name": "Group B",
+        "trams": [
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "group": {
+        "name": "Group C",
+        "trams": [
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "group": {
+        "name": "Group D",
+        "trams": [
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          }
+        ]
+      }
+    },
+    {
+      "group": {
+        "name": "Group E",
+        "trams": [
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          },
+          {
+            "team": {
+              "name": "Egypt",
+              "logo": "egypt",
+              "players": [],
+              "coach": ""
+            }
+          }
+        ]
+      }
+    }
+  ]
+}
