@@ -7,21 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2438DD33BD0F6F51CF310889 /* Pods_RxSwift_JSONDecoder_Decodable.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4AA497BC65951BE1FCBDAD72 /* Pods_RxSwift_JSONDecoder_Decodable.framework */; };
+		AB6DAB4521EEFF080050911F /* TeamTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB6DAB4321EEFF080050911F /* TeamTableViewCell.swift */; };
+		AB6DAB4621EEFF080050911F /* TeamTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB6DAB4421EEFF080050911F /* TeamTableViewCell.xib */; };
 		AB81EB4921EEC10D00B2967A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81EB4821EEC10D00B2967A /* AppDelegate.swift */; };
-		AB81EB4B21EEC10D00B2967A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81EB4A21EEC10D00B2967A /* ViewController.swift */; };
+		AB81EB4B21EEC10D00B2967A /* GroupViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81EB4A21EEC10D00B2967A /* GroupViewController.swift */; };
 		AB81EB4E21EEC10D00B2967A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB81EB4C21EEC10D00B2967A /* Main.storyboard */; };
 		AB81EB5021EEC10F00B2967A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AB81EB4F21EEC10F00B2967A /* Assets.xcassets */; };
 		AB81EB5321EEC10F00B2967A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AB81EB5121EEC10F00B2967A /* LaunchScreen.storyboard */; };
+		AB81EB5D21EEC64400B2967A /* teams.json in Resources */ = {isa = PBXBuildFile; fileRef = AB81EB5C21EEC64400B2967A /* teams.json */; };
+		AB81EB5F21EEDF6B00B2967A /* ResponseData.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81EB5E21EEDF6B00B2967A /* ResponseData.swift */; };
+		AB81EB6121EEE36900B2967A /* GroupsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81EB6021EEE36900B2967A /* GroupsViewModel.swift */; };
+		AB81EB6621EEFAF000B2967A /* GroupCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = AB81EB6421EEFAF000B2967A /* GroupCollectionViewCell.swift */; };
+		AB81EB6721EEFAF000B2967A /* GroupCollectionViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = AB81EB6521EEFAF000B2967A /* GroupCollectionViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		39B4F98EC2CE0610B9950752 /* Pods-RxSwift-JSONDecoder&Decodable.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-JSONDecoder&Decodable.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-JSONDecoder&Decodable/Pods-RxSwift-JSONDecoder&Decodable.debug.xcconfig"; sourceTree = "<group>"; };
+		4AA497BC65951BE1FCBDAD72 /* Pods_RxSwift_JSONDecoder_Decodable.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RxSwift_JSONDecoder_Decodable.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AB6DAB4321EEFF080050911F /* TeamTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TeamTableViewCell.swift; sourceTree = "<group>"; };
+		AB6DAB4421EEFF080050911F /* TeamTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TeamTableViewCell.xib; sourceTree = "<group>"; };
 		AB81EB4521EEC10D00B2967A /* RxSwift-JSONDecoder&Decodable.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RxSwift-JSONDecoder&Decodable.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		AB81EB4821EEC10D00B2967A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		AB81EB4A21EEC10D00B2967A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		AB81EB4A21EEC10D00B2967A /* GroupViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupViewController.swift; sourceTree = "<group>"; };
 		AB81EB4D21EEC10D00B2967A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		AB81EB4F21EEC10F00B2967A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		AB81EB5221EEC10F00B2967A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AB81EB5421EEC10F00B2967A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AB81EB5C21EEC64400B2967A /* teams.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = teams.json; sourceTree = "<group>"; };
+		AB81EB5E21EEDF6B00B2967A /* ResponseData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResponseData.swift; sourceTree = "<group>"; };
+		AB81EB6021EEE36900B2967A /* GroupsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupsViewModel.swift; sourceTree = "<group>"; };
+		AB81EB6421EEFAF000B2967A /* GroupCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GroupCollectionViewCell.swift; sourceTree = "<group>"; };
+		AB81EB6521EEFAF000B2967A /* GroupCollectionViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = GroupCollectionViewCell.xib; sourceTree = "<group>"; };
+		ED3DD9F80F6079A5CD45A4DF /* Pods-RxSwift-JSONDecoder&Decodable.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RxSwift-JSONDecoder&Decodable.release.xcconfig"; path = "Pods/Target Support Files/Pods-RxSwift-JSONDecoder&Decodable/Pods-RxSwift-JSONDecoder&Decodable.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,17 +47,46 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2438DD33BD0F6F51CF310889 /* Pods_RxSwift_JSONDecoder_Decodable.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5CDBD604C1AD6CD993AA5D8C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4AA497BC65951BE1FCBDAD72 /* Pods_RxSwift_JSONDecoder_Decodable.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AB6DAB4721EF05F70050911F /* Nib */ = {
+			isa = PBXGroup;
+			children = (
+				AB81EB6521EEFAF000B2967A /* GroupCollectionViewCell.xib */,
+				AB6DAB4421EEFF080050911F /* TeamTableViewCell.xib */,
+			);
+			path = Nib;
+			sourceTree = "<group>";
+		};
+		AB6DAB4821EF06070050911F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				AB81EB6421EEFAF000B2967A /* GroupCollectionViewCell.swift */,
+				AB6DAB4321EEFF080050911F /* TeamTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 		AB81EB3C21EEC10D00B2967A = {
 			isa = PBXGroup;
 			children = (
 				AB81EB4721EEC10D00B2967A /* RxSwift-JSONDecoder&Decodable */,
 				AB81EB4621EEC10D00B2967A /* Products */,
+				D35819981BDB43D356EC2926 /* Pods */,
+				5CDBD604C1AD6CD993AA5D8C /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +101,28 @@
 		AB81EB4721EEC10D00B2967A /* RxSwift-JSONDecoder&Decodable */ = {
 			isa = PBXGroup;
 			children = (
+				AB81EB5C21EEC64400B2967A /* teams.json */,
 				AB81EB4821EEC10D00B2967A /* AppDelegate.swift */,
-				AB81EB4A21EEC10D00B2967A /* ViewController.swift */,
+				AB81EB4A21EEC10D00B2967A /* GroupViewController.swift */,
+				AB81EB5E21EEDF6B00B2967A /* ResponseData.swift */,
+				AB81EB6021EEE36900B2967A /* GroupsViewModel.swift */,
+				AB6DAB4821EF06070050911F /* Views */,
+				AB6DAB4721EF05F70050911F /* Nib */,
 				AB81EB4C21EEC10D00B2967A /* Main.storyboard */,
 				AB81EB4F21EEC10F00B2967A /* Assets.xcassets */,
 				AB81EB5121EEC10F00B2967A /* LaunchScreen.storyboard */,
 				AB81EB5421EEC10F00B2967A /* Info.plist */,
 			);
 			path = "RxSwift-JSONDecoder&Decodable";
+			sourceTree = "<group>";
+		};
+		D35819981BDB43D356EC2926 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				39B4F98EC2CE0610B9950752 /* Pods-RxSwift-JSONDecoder&Decodable.debug.xcconfig */,
+				ED3DD9F80F6079A5CD45A4DF /* Pods-RxSwift-JSONDecoder&Decodable.release.xcconfig */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +132,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = AB81EB5721EEC10F00B2967A /* Build configuration list for PBXNativeTarget "RxSwift-JSONDecoder&Decodable" */;
 			buildPhases = (
+				A79D0FA6AFCCCB5399D82DD6 /* [CP] Check Pods Manifest.lock */,
 				AB81EB4121EEC10D00B2967A /* Sources */,
 				AB81EB4221EEC10D00B2967A /* Frameworks */,
 				AB81EB4321EEC10D00B2967A /* Resources */,
+				CAC76E67916DA51355D3EE2A /* [CP] Embed Pods Frameworks */,
+				F274579B91B046646EC71DD3 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -122,21 +186,90 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AB81EB5D21EEC64400B2967A /* teams.json in Resources */,
+				AB81EB6721EEFAF000B2967A /* GroupCollectionViewCell.xib in Resources */,
 				AB81EB5321EEC10F00B2967A /* LaunchScreen.storyboard in Resources */,
 				AB81EB5021EEC10F00B2967A /* Assets.xcassets in Resources */,
 				AB81EB4E21EEC10D00B2967A /* Main.storyboard in Resources */,
+				AB6DAB4621EEFF080050911F /* TeamTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		A79D0FA6AFCCCB5399D82DD6 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RxSwift-JSONDecoder&Decodable-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAC76E67916DA51355D3EE2A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift-JSONDecoder&Decodable/Pods-RxSwift-JSONDecoder&Decodable-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Differentiator/Differentiator.framework",
+				"${BUILT_PRODUCTS_DIR}/RxAtomic/RxAtomic.framework",
+				"${BUILT_PRODUCTS_DIR}/RxCocoa/RxCocoa.framework",
+				"${BUILT_PRODUCTS_DIR}/RxDataSources/RxDataSources.framework",
+				"${BUILT_PRODUCTS_DIR}/RxSwift/RxSwift.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Differentiator.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxAtomic.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxCocoa.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxDataSources.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift-JSONDecoder&Decodable/Pods-RxSwift-JSONDecoder&Decodable-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F274579B91B046646EC71DD3 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RxSwift-JSONDecoder&Decodable/Pods-RxSwift-JSONDecoder&Decodable-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		AB81EB4121EEC10D00B2967A /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AB81EB4B21EEC10D00B2967A /* ViewController.swift in Sources */,
+				AB81EB6121EEE36900B2967A /* GroupsViewModel.swift in Sources */,
+				AB81EB4B21EEC10D00B2967A /* GroupViewController.swift in Sources */,
+				AB81EB5F21EEDF6B00B2967A /* ResponseData.swift in Sources */,
+				AB81EB6621EEFAF000B2967A /* GroupCollectionViewCell.swift in Sources */,
 				AB81EB4921EEC10D00B2967A /* AppDelegate.swift in Sources */,
+				AB6DAB4521EEFF080050911F /* TeamTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +413,7 @@
 		};
 		AB81EB5821EEC10F00B2967A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 39B4F98EC2CE0610B9950752 /* Pods-RxSwift-JSONDecoder&Decodable.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -297,6 +431,7 @@
 		};
 		AB81EB5921EEC10F00B2967A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED3DD9F80F6079A5CD45A4DF /* Pods-RxSwift-JSONDecoder&Decodable.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;

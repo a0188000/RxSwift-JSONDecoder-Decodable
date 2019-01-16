@@ -6,4 +6,24 @@
 //  Copyright © 2019 EVERTRUST. All rights reserved.
 //
 
-import Foundation
+struct ResponseData: Decodable {
+    var groups: [GroupData]
+}
+
+struct GroupData: Decodable {
+    var group: GroupDetails
+}
+
+struct GroupDetails: Decodable {
+    var name: String
+    var teams: [TeamData]
+}
+
+struct TeamData: Decodable {
+    var team: TeamDetail
+}
+
+struct TeamDetail: Decodable {
+    var name: String
+    var logo: String
+}

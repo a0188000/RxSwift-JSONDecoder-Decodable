@@ -2,28 +2,28 @@
   "groups": [
     {
       "group": {
-        "name": "Group A",
-        "trams": [
+        "name": "亞洲",
+        "teams": [
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "台灣",
+              "logo": "台灣",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "日本",
+              "logo": "日本",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "韓國",
+              "logo": "韓國",
               "players": [],
               "coach": ""
             }
@@ -33,28 +33,28 @@
     },
     {
       "group": {
-        "name": "Group B",
-        "trams": [
+        "name": "東南亞",
+        "teams": [
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "越南",
+              "logo": "越南",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "泰國",
+              "logo": "泰國",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "柬埔寨",
+              "logo": "柬埔寨",
               "players": [],
               "coach": ""
             }
@@ -64,28 +64,28 @@
     },
     {
       "group": {
-        "name": "Group C",
-        "trams": [
+        "name": "北美洲",
+        "teams": [
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "美國",
+              "logo": "美國",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "加拿大",
+              "logo": "加拿大",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "墨西哥",
+              "logo": "墨西哥",
               "players": [],
               "coach": ""
             }
@@ -95,28 +95,28 @@
     },
     {
       "group": {
-        "name": "Group D",
-        "trams": [
+        "name": "歐洲",
+        "teams": [
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "捷克",
+              "logo": "捷克",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "西班牙",
+              "logo": "西班牙",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "梵蒂岡",
+              "logo": "梵蒂岡",
               "players": [],
               "coach": ""
             }
@@ -126,28 +126,28 @@
     },
     {
       "group": {
-        "name": "Group E",
-        "trams": [
+        "name": "非洲",
+        "teams": [
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "肯亞",
+              "logo": "肯亞",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "南非",
+              "logo": "南非",
               "players": [],
               "coach": ""
             }
           },
           {
             "team": {
-              "name": "Egypt",
-              "logo": "egypt",
+              "name": "奈及利亞",
+              "logo": "奈及利亞",
               "players": [],
               "coach": ""
             }
